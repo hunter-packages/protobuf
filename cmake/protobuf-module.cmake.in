@@ -202,6 +202,7 @@ endif()
 
 # Version info variable
 set(Protobuf_VERSION "@protobuf_VERSION@")
+set(Protobuf_USE_ZLIB "@protobuf_WITH_ZLIB@")
 
 include(FindPackageHandleStandardArgs)
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(Protobuf
